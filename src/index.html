@@ -3,58 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="../css/default.css">
     <title>RainAlert</title>
 </head>
+
 <body>
-    <header>
-        <nav>
-          </nav>
-    </header> 
     <a href="#Two">
+
     <main class="welcome" >
         <img src="./img/bi_cloud-hail.png" alt=""  >
-        <div class="rain_img">
-            <img src="./assets/images/rond.png" alt="">
+            
+        <div class="welcome__rain_img">
+                <img src="./assets/images/rond.png" alt="">
+        </div>
+
+            <div class="welcome__rain">
+                <h1>RainAlert</h1>
+                <p>Préparez-vous pour la pluie</p>
             </div>
-            <div class="rain">
-            <h1>RainAlert</h1>
-            <p>Préparez-vous pour la pluie</p>
-        </div>
-        </div>
+
     </main>
 </a>
-    <main class="mainTwo" id="Two"> 
-       
-        <div class="top">
-       
-        <div class="rain_img2">
-            <img src="./assets/images/rond.png" alt="">
-            </div>
-            <div class="rain2">
-            <h1>RainAlert</h1>
+
+ <main class="mainTwo" id="Two"> 
+
+     <div class="mainTwo__top">
+
+         <div class="mainTwo__top__rain_img2">
+              <img src="./assets/images/rond.png" alt="">
+        </div>
+
+         <div class="mainTwo__top__rain2">
+            <h1 class="mainTwo__top__rain2__txt">RainAlert</h1>
         </div>
     </div>
-    <article class="articleDiv">
-        <div class="searchDiv">
-            <div class="search">
+
+
+    <section class="mainTwo__section">
+        <div class="mainTwo__section__searchDiv">
+
+            <div class="mainTwo__articleDiv__searchDiv__search">
                 <img src="./assets/images/clarity_map-marker-line.png" alt="">
                 <input type="text" placeholder="Paris, FR" >
                 <img src="./assets/images/charm_search.png" alt="">
              </div>
+
         </div>
     </article>
-    </main>
-   <article>
-    <div class="prevision">
 
-      <div class="prevision_img">
+    </main>
+
+   <article class="bottom">
+    <div class="bottom__prevision">
+
+      <div class="bottom__prevision__img">
          <img src="./assets/images/bi_cloud.png" alt=""> </div>
         <div>
             <a  href=""> Prévisions</a></div>
      </div>
-    <div class="carte">
-        <div class="carteImg">
+    <div class="bottom__carte">
+        <div class="bottom__carte__carteImg">
             <img src="./assets/images/clarity_map-marker-line.png" alt="">
         </div>
         <div>
@@ -63,5 +71,7 @@
     </div>
    </article>
 
+
+   <script src="index.js"></script>
 </body>
 </html>
